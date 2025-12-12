@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C85655C2-A4C7-4900-8B4A-E66F84311F2D}|DAL\\DAL.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dal\\loaichitieudal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C85655C2-A4C7-4900-8B4A-E66F84311F2D}|DAL\\DAL.csproj|solutionrelative:dal\\loaichitieudal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dto\\loaichitieudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|solutionrelative:dto\\loaichitieudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dto\\loainhacnhodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|solutionrelative:dto\\loainhacnhodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dto\\loaitaikhoandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|solutionrelative:dto\\loaitaikhoandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dto\\loaithunhapdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|solutionrelative:dto\\loaithunhapdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dto\\ngansachdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|solutionrelative:dto\\ngansachdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dto\\nhacnhodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|solutionrelative:dto\\nhacnhodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\.nuget\\packages\\system.text.json\\9.0.5\\buildTransitive\\netcoreapp2.0\\System.Text.Json.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dto\\taikhoandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|solutionrelative:dto\\taikhoandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dto\\thunhapdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|solutionrelative:dto\\thunhapdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dto\\userinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|solutionrelative:dto\\userinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F56114-CB44-4168-9054-1AF65454DB7B}|WebAPI_BTL_Admin\\WebAPI_BTL_Admin.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\webapi_btl_admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F7F56114-CB44-4168-9054-1AF65454DB7B}|WebAPI_BTL_Admin\\WebAPI_BTL_Admin.csproj|solutionrelative:webapi_btl_admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C85655C2-A4C7-4900-8B4A-E66F84311F2D}|DAL\\DAL.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dal\\loaithunhapdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C85655C2-A4C7-4900-8B4A-E66F84311F2D}|DAL\\DAL.csproj|solutionrelative:dal\\loaithunhapdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dto\\chitieudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5AD9F1-0771-40EC-B304-B35E5DB4CDCE}|DTO\\DTO.csproj|solutionrelative:dto\\chitieudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C85655C2-A4C7-4900-8B4A-E66F84311F2D}|DAL\\DAL.csproj|c:\\users\\dell\\source\\repos\\webapi_btl_admin\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C85655C2-A4C7-4900-8B4A-E66F84311F2D}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1F2D9E8-9101-44BD-9EA5-98A92C99608C}|BLL\\BLL.csproj|C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F2D9E8-9101-44BD-9EA5-98A92C99608C}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "System.Text.Json.targets",
+              "DocumentMoniker": "C:\\Users\\Dell\\.nuget\\packages\\system.text.json\\9.0.5\\buildTransitive\\netcoreapp2.0\\System.Text.Json.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\system.text.json\\9.0.5\\buildTransitive\\netcoreapp2.0\\System.Text.Json.targets",
+              "ToolTip": "C:\\Users\\Dell\\.nuget\\packages\\system.text.json\\9.0.5\\buildTransitive\\netcoreapp2.0\\System.Text.Json.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\system.text.json\\9.0.5\\buildTransitive\\netcoreapp2.0\\System.Text.Json.targets",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-10T09:58:15.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DAL",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-10T08:37:32.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1a46fd64-28d5-434c-8eb3-17a02d419b53}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoaichitieuDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DAL\\LoaichitieuDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\LoaichitieuDAL.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DAL\\LoaichitieuDAL.cs",
+              "RelativeToolTip": "DAL\\LoaichitieuDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:17:08.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI_BTL_Admin\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin\\appsettings.json",
+              "RelativeToolTip": "WebAPI_BTL_Admin\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-10T07:41:55.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NhacnhoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\NhacnhoDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\NhacnhoDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\NhacnhoDTO.cs",
+              "RelativeToolTip": "DTO\\NhacnhoDTO.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwBIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:40:32.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoainhacnhoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\LoainhacnhoDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\LoainhacnhoDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\LoainhacnhoDTO.cs",
+              "RelativeToolTip": "DTO\\LoainhacnhoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:40:18.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NgansachDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\NgansachDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\NgansachDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\NgansachDTO.cs",
+              "RelativeToolTip": "DTO\\NgansachDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:40:05.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChitieuDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\ChitieuDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ChitieuDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\ChitieuDTO.cs",
+              "RelativeToolTip": "DTO\\ChitieuDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:39:44.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoaichitieuDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\LoaichitieuDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\LoaichitieuDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\LoaichitieuDTO.cs",
+              "RelativeToolTip": "DTO\\LoaichitieuDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:39:29.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ThunhapDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\ThunhapDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ThunhapDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\ThunhapDTO.cs",
+              "RelativeToolTip": "DTO\\ThunhapDTO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:39:09.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoaithunhapDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\LoaithunhapDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\LoaithunhapDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\LoaithunhapDTO.cs",
+              "RelativeToolTip": "DTO\\LoaithunhapDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:38:51.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserInfoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\UserInfoDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserInfoDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\UserInfoDTO.cs",
+              "RelativeToolTip": "DTO\\UserInfoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:38:32.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaikhoanDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\TaikhoanDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TaikhoanDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\TaikhoanDTO.cs",
+              "RelativeToolTip": "DTO\\TaikhoanDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:38:01.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoaitaikhoanDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\LoaitaikhoanDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\LoaitaikhoanDTO.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\LoaitaikhoanDTO.cs",
+              "RelativeToolTip": "DTO\\LoaitaikhoanDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:30:02.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoaithunhapDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DAL\\LoaithunhapDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\LoaithunhapDAL.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DAL\\LoaithunhapDAL.cs",
+              "RelativeToolTip": "DAL\\LoaithunhapDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:29:49.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:29:32.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 269,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
