@@ -175,3 +175,21 @@ VALUES
 (2, 2, N'Thanh toán hóa đơn internet', 250000, N'Hàng tháng', '2026-01-30', N'Hóa đơn FPT', 1),
 (3, 3, N'Gửi tiết kiệm định kỳ', 1000000, N'Hàng tháng', '2026-12-31', N'Tạo thói quen tiết kiệm', 1);
 
+CREATE PROCEDURE GetAllNganSach
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT 
+        IdNganSach,
+        IdTaiKhoan,
+        TenNganSach,
+        SoTienGioiHan,
+        MoTa,
+        NgayTao,
+        TrangThai
+    FROM NganSach
+    ORDER BY NgayTao DESC;
+END
+
+EXEC GetAllNganSach;
