@@ -437,19 +437,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj",
       "projectName": "WEBAPI_BTL_User",
-      "projectPath": "C:\\Users\\Dell\\source\\repos\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\source\\repos\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\obj\\",
+      "projectPath": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -474,7 +479,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net6.0": {
@@ -504,7 +510,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
