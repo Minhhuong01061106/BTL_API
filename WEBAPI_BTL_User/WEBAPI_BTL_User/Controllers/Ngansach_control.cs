@@ -34,5 +34,30 @@ namespace WEBAPI_BTL_User.Controllers
                 });
             }
         }
+        [Route("get-by-id/{id}")]
+        [HttpGet]
+        public IActionResult Getbyid(int id) 
+        {
+            try
+            {
+                Ngansach data = _bll.GetNganSachById(id);
+                if (data == null)
+                {
+                    return NotFound(new
+                    {
+                        message = "Không tìm thấy ngân sách với id = " + id
+                    });
+                }
+                return Ok(data);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    message = ex.Message,
+                    stackTrace = ex.StackTrace
+                });
+            }
+        }
     }
 }

@@ -12,9 +12,13 @@ namespace BLL
             _dal = new Ngansach_DAL(connectionString);
         }
 
-        public List<Ngansach> GetAllNganSach()
+        public List<Ngansach> GetAllNganSach() 
         {
             return _dal.GetAllNganSach();
+        }
+        public Ngansach GetNganSachById(int id)
+        {
+            return _dal.GetNganSachById(id);
         }
     }
 }

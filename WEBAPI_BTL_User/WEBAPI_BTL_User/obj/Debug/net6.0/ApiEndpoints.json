@@ -10,6 +10,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WEBAPI_BTL_User.Controllers.Ngansach_control",
+    "Method": "Getbyid",
+    "RelativePath": "api/Ngansach_control/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WEBAPI_BTL_User.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

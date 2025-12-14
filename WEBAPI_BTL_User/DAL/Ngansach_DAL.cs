@@ -40,8 +40,38 @@ namespace DAL
                     list.Add(ns);
                 }
             }
-
             return list;
         }
+        public Ngansach GetNganSachById(int id)
+        {
+            Ngansach ns = null;
+
+            using (SqlConnection conn = new SqlConnection(_connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("Getngansachid", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@id", id);
+
+                conn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    ns = new Ngansach
+                    {
+                        IdNganSach = Convert.ToInt32(reader["IdNganSach"]),
+                        IdTaiKhoan = Convert.ToInt32(reader["IdTaiKhoan"]),
+                        TenNganSach = reader["TenNganSach"].ToString(),
+                        SoTienGioiHan = Convert.ToDecimal(reader["SoTienGioiHan"]),
+                        MoTa = reader["MoTa"].ToString(),
+                        NgayTao = Convert.ToDateTime(reader["NgayTao"]),
+                        TrangThai = Convert.ToBoolean(reader["TrangThai"])
+                    };
+                }
+            }
+
+            return ns;
+        }
+
     }
 }
