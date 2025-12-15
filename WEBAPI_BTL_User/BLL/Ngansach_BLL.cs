@@ -20,5 +20,9 @@ namespace BLL
         {
             return _dal.GetNganSachById(id);
         }
+        public bool Themngansach(Ngansach ns)
+        {
+            return _dal.Themngansach(ns);
+        }
     }
 }

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E282A0B-0ACF-4214-8E83-DC3F773ABDB8}|WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\webapi_btl_user\\controllers\\ngansach_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E282A0B-0ACF-4214-8E83-DC3F773ABDB8}|WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj|solutionrelative:webapi_btl_user\\controllers\\ngansach_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8763D769-0186-460A-8921-857CB76F6919}|DAL\\DAL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\dal\\ngansach_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8763D769-0186-460A-8921-857CB76F6919}|DAL\\DAL.csproj|solutionrelative:dal\\ngansach_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBE8A051-E51F-4E18-9336-C5021A103D6C}|BLL\\BLL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\bll\\ngansach_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBE8A051-E51F-4E18-9336-C5021A103D6C}|BLL\\BLL.csproj|solutionrelative:bll\\ngansach_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8763D769-0186-460A-8921-857CB76F6919}|DAL\\DAL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\dal\\ngansach_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8763D769-0186-460A-8921-857CB76F6919}|DAL\\DAL.csproj|solutionrelative:dal\\ngansach_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E282A0B-0ACF-4214-8E83-DC3F773ABDB8}|WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\webapi_btl_user\\controllers\\ngansach_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E282A0B-0ACF-4214-8E83-DC3F773ABDB8}|WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj|solutionrelative:webapi_btl_user\\controllers\\ngansach_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|solutionrelative:models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E282A0B-0ACF-4214-8E83-DC3F773ABDB8}|WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\webapi_btl_user\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\models\\nhacnho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|solutionrelative:models\\nhacnho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E282A0B-0ACF-4214-8E83-DC3F773ABDB8}|WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\webapi_btl_user\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E282A0B-0ACF-4214-8E83-DC3F773ABDB8}|WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj|solutionrelative:webapi_btl_user\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E282A0B-0ACF-4214-8E83-DC3F773ABDB8}|WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\webapi_btl_user\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,20 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Models",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\Models\\Models.csproj",
+              "RelativeDocumentMoniker": "Models\\Models.csproj",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\Models\\Models.csproj",
+              "RelativeToolTip": "Models\\Models.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-15T09:09:17.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Ngansach_control.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\Controllers\\Ngansach_control.cs",
               "RelativeDocumentMoniker": "WEBAPI_BTL_User\\Controllers\\Ngansach_control.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\Controllers\\Ngansach_control.cs",
               "RelativeToolTip": "WEBAPI_BTL_User\\Controllers\\Ngansach_control.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T09:15:54.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Nhacnho.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\Models\\Nhacnho.cs",
               "RelativeDocumentMoniker": "Models\\Nhacnho.cs",
@@ -83,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Ngansach.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\Models\\Ngansach.cs",
               "RelativeDocumentMoniker": "Models\\Ngansach.cs",
@@ -101,37 +114,27 @@
               "RelativeDocumentMoniker": "BLL\\Ngansach_BLL.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\BLL\\Ngansach_BLL.cs",
               "RelativeToolTip": "BLL\\Ngansach_BLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T04:02:52.872Z"
+              "WhenOpened": "2025-12-13T04:02:52.872Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Ngansach_DAL.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\DAL\\Ngansach_DAL.cs",
               "RelativeDocumentMoniker": "DAL\\Ngansach_DAL.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\DAL\\Ngansach_DAL.cs",
-              "RelativeToolTip": "DAL\\Ngansach_DAL.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDIAAAA+AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\DAL\\Ngansach_DAL.cs*",
+              "RelativeToolTip": "DAL\\Ngansach_DAL.cs*",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAwwFkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T04:02:20.025Z"
+              "WhenOpened": "2025-12-13T04:02:20.025Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "WEBAPI_BTL_User\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "WEBAPI_BTL_User\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T03:52:06.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\appsettings.json",
               "RelativeDocumentMoniker": "WEBAPI_BTL_User\\appsettings.json",

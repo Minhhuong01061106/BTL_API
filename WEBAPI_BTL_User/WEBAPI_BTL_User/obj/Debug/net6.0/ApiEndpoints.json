@@ -26,6 +26,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WEBAPI_BTL_User.Controllers.Ngansach_control",
+    "Method": "Themngansach",
+    "RelativePath": "api/Ngansach_control/ThemNgansach",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ns",
+        "Type": "Models.Ngansach",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WEBAPI_BTL_User.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

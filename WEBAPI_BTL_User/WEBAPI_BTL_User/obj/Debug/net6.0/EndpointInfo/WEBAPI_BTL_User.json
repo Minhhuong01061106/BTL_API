@@ -40,6 +40,37 @@
         }
       }
     },
+    "/api/Ngansach_control/ThemNgansach": {
+      "post": {
+        "tags": [
+          "Ngansach_control"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Ngansach"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Ngansach"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Ngansach"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -82,6 +113,39 @@
   },
   "components": {
     "schemas": {
+      "Ngansach": {
+        "type": "object",
+        "properties": {
+          "idNganSach": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idTaiKhoan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenNganSach": {
+            "type": "string",
+            "nullable": true
+          },
+          "soTienGioiHan": {
+            "type": "number",
+            "format": "double"
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayTao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "trangThai": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
       "WeatherForecast": {
         "type": "object",
         "properties": {
