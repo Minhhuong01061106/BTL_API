@@ -90,5 +90,22 @@ namespace DAL
             }
         }
 
+        public bool Suangansach(Ngansach ns)
+        {
+            using (SqlConnection conn = new SqlConnection(_connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("SuaNgansach", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@IdNganSach", ns.IdNganSach);
+                cmd.Parameters.AddWithValue("@TenNganSach", ns.TenNganSach);
+                cmd.Parameters.AddWithValue("@SoTienGioiHan", ns.SoTienGioiHan);
+                cmd.Parameters.AddWithValue("@MoTa", ns.MoTa);
+                cmd.Parameters.AddWithValue("@TrangThai", ns.TrangThai);
+                conn.Open ();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+        }
     }
 }

@@ -89,5 +89,35 @@ namespace WEBAPI_BTL_User.Controllers
                 });
             }
         }
+        [Route("Suangansach")]
+        [HttpPut]
+        public IActionResult Suangansach([FromBody] Ngansach ns)
+        {
+            try
+            {
+                if (ns == null)
+                {
+                    return BadRequest(new { message = "Dữ liệu không hợp lệ" });
+                }
+                if (ns.IdNganSach <= 0)
+                {
+                    return BadRequest(new { message = "Id ngân sách không hợp lệ" });
+                }
+                bool result = _bll.Suangansach(ns);
+                if (!result)
+                {
+                    return BadRequest(new { message = "Không tìm thấy dữ liệu ngân sách để sửa " });
+                }
+                return Ok(new
+                {
+                    message = "Cập nhật ngân sách thành công"
+                });
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(500, new {message=ex.Message});
+            }
+        }
+
     }
 }

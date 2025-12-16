@@ -24,5 +24,9 @@ namespace BLL
         {
             return _dal.Themngansach(ns);
         }
+        public bool Suangansach(Ngansach ns)
+        {
+            return _dal.Suangansach(ns);
+        }
     }
 }
