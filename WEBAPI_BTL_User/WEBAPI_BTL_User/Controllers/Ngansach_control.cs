@@ -119,5 +119,27 @@ namespace WEBAPI_BTL_User.Controllers
             }
         }
 
+        [Route("Xoangansach")]
+        [HttpDelete]
+        public IActionResult Xoangansach(int id)
+        {
+            try
+            {
+                if (id <= 0)
+                {
+                    return BadRequest(new { message = "Id không hợp lệ" });
+                }
+                bool result =_bll.Xoangansach(id);
+                if (!result)
+                {
+                    return BadRequest(new { message = "Không tìm thấy id ngân sách để xóa " });
+                }
+                return Ok(new {message="Xóa id ngân sách thành công"});
+            }
+            catch (Exception ex)
+            {
+                return StatusCode (500 , new {message=ex.Message});
+            }
+        }
     }
 }

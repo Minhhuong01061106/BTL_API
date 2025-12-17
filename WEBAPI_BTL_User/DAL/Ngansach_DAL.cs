@@ -79,14 +79,14 @@ namespace DAL
                 SqlCommand cmd = new SqlCommand("ThemNgansach", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
 
-                cmd.Parameters.AddWithValue("@IdTaiKhoan",ns. IdTaiKhoan);
+                cmd.Parameters.AddWithValue("@IdTaiKhoan", ns.IdTaiKhoan);
                 cmd.Parameters.AddWithValue("@TenNganSach", ns.TenNganSach);
                 cmd.Parameters.AddWithValue("@SoTienGioiHan", ns.SoTienGioiHan);
                 cmd.Parameters.AddWithValue("@MoTa", ns.MoTa);
                 cmd.Parameters.AddWithValue("@TrangThai", ns.TrangThai);
                 conn.Open();
-                cmd.ExecuteNonQuery();
-                return true;
+                int rows = cmd.ExecuteNonQuery();
+                return rows > 0;
             }
         }
 
@@ -102,9 +102,21 @@ namespace DAL
                 cmd.Parameters.AddWithValue("@SoTienGioiHan", ns.SoTienGioiHan);
                 cmd.Parameters.AddWithValue("@MoTa", ns.MoTa);
                 cmd.Parameters.AddWithValue("@TrangThai", ns.TrangThai);
-                conn.Open ();
-                cmd.ExecuteNonQuery();
-                return true;
+                conn.Open();
+                int rows = cmd.ExecuteNonQuery();
+                return rows > 0;
+            }
+        }
+        public bool Xoangansach(int idngansach)
+        {
+            using (SqlConnection connn = new SqlConnection(_connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("XoaNganSach", connn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdNganSach", idngansach);
+                connn.Open();
+                int rows = cmd.ExecuteNonQuery();
+                return rows > 0;
             }
         }
     }

@@ -28,5 +28,9 @@ namespace BLL
         {
             return _dal.Suangansach(ns);
         }
+        public bool Xoangansach(int idngansach)
+        {
+            return _dal.Xoangansach(idngansach);
+        }
     }
 }

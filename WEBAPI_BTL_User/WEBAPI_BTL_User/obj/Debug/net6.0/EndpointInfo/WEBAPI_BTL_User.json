@@ -102,6 +102,28 @@
         }
       }
     },
+    "/api/Ngansach_control/Xoangansach": {
+      "delete": {
+        "tags": [
+          "Ngansach_control"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
