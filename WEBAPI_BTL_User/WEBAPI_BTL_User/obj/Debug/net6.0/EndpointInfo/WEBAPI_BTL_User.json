@@ -5,6 +5,41 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Loainhacnho_control/GetAll": {
+      "get": {
+        "tags": [
+          "Loainhacnho_control"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Loainhacnho_control/Get-id-lnn/{id}": {
+      "get": {
+        "tags": [
+          "Loainhacnho_control"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Ngansach_control/get-all": {
       "get": {
         "tags": [

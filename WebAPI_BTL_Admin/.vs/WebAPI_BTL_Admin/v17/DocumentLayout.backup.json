@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{C85655C2-A4C7-4900-8B4A-E66F84311F2D}|DAL\\DAL.csproj|solutionrelative:dal\\loaithunhapdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D1F2D9E8-9101-44BD-9EA5-98A92C99608C}|BLL\\BLL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_admin\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F2D9E8-9101-44BD-9EA5-98A92C99608C}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7F56114-CB44-4168-9054-1AF65454DB7B}|WebAPI_BTL_Admin\\WebAPI_BTL_Admin.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_admin\\webapi_btl_admin\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F7F56114-CB44-4168-9054-1AF65454DB7B}|WebAPI_BTL_Admin\\WebAPI_BTL_Admin.csproj|solutionrelative:webapi_btl_admin\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -68,10 +72,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C85655C2-A4C7-4900-8B4A-E66F84311F2D}|DAL\\DAL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_admin\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C85655C2-A4C7-4900-8B4A-E66F84311F2D}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1F2D9E8-9101-44BD-9EA5-98A92C99608C}|BLL\\BLL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_admin\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1F2D9E8-9101-44BD-9EA5-98A92C99608C}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,7 +81,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,33 +89,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WebAPI_BTL_Admin\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin\\appsettings.Development.json",
-              "RelativeToolTip": "WebAPI_BTL_Admin\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-13T03:32:58.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WebAPI_BTL_Admin",
+              "DocumentIndex": 4,
+              "Title": "WebAPI_BTL_Admin.csproj",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin.csproj",
               "RelativeDocumentMoniker": "WebAPI_BTL_Admin\\WebAPI_BTL_Admin.csproj",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin.csproj",
               "RelativeToolTip": "WebAPI_BTL_Admin\\WebAPI_BTL_Admin.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-13T03:32:52.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-13T03:32:52.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DAL.csproj",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
@@ -123,8 +109,7 @@
               "RelativeToolTip": "DAL\\DAL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-10T08:37:32.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T08:37:32.041Z"
             },
             {
               "$type": "Document",
@@ -134,14 +119,14 @@
               "RelativeDocumentMoniker": "DAL\\LoaichitieuDAL.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DAL\\LoaichitieuDAL.cs",
               "RelativeToolTip": "DAL\\LoaichitieuDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T09:17:08.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPI_BTL_Admin\\appsettings.json",
@@ -166,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "System.Text.Json.targets",
               "DocumentMoniker": "C:\\Users\\Dell\\.nuget\\packages\\system.text.json\\9.0.5\\buildTransitive\\netcoreapp2.0\\System.Text.Json.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Dell\\.nuget\\packages\\system.text.json\\9.0.5\\buildTransitive\\netcoreapp2.0\\System.Text.Json.targets",
@@ -178,7 +163,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:29:32.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebAPI_BTL_Admin\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\WebAPI_BTL_Admin\\appsettings.Development.json",
+              "RelativeToolTip": "WebAPI_BTL_Admin\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-13T03:32:58.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "NhacnhoDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\NhacnhoDTO.cs",
               "RelativeDocumentMoniker": "DTO\\NhacnhoDTO.cs",
@@ -190,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LoainhacnhoDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\LoainhacnhoDTO.cs",
               "RelativeDocumentMoniker": "DTO\\LoainhacnhoDTO.cs",
@@ -202,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "NgansachDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\NgansachDTO.cs",
               "RelativeDocumentMoniker": "DTO\\NgansachDTO.cs",
@@ -214,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ChitieuDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\ChitieuDTO.cs",
               "RelativeDocumentMoniker": "DTO\\ChitieuDTO.cs",
@@ -226,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoaichitieuDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\LoaichitieuDTO.cs",
               "RelativeDocumentMoniker": "DTO\\LoaichitieuDTO.cs",
@@ -238,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ThunhapDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\ThunhapDTO.cs",
               "RelativeDocumentMoniker": "DTO\\ThunhapDTO.cs",
@@ -250,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LoaithunhapDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\LoaithunhapDTO.cs",
               "RelativeDocumentMoniker": "DTO\\LoaithunhapDTO.cs",
@@ -262,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UserInfoDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\UserInfoDTO.cs",
               "RelativeDocumentMoniker": "DTO\\UserInfoDTO.cs",
@@ -274,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TaikhoanDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\TaikhoanDTO.cs",
               "RelativeDocumentMoniker": "DTO\\TaikhoanDTO.cs",
@@ -286,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LoaitaikhoanDTO.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\LoaitaikhoanDTO.cs",
               "RelativeDocumentMoniker": "DTO\\LoaitaikhoanDTO.cs",
@@ -295,18 +305,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T07:30:02.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\BLL\\Class1.cs",
-              "RelativeDocumentMoniker": "BLL\\Class1.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\BLL\\Class1.cs",
-              "RelativeToolTip": "BLL\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T07:29:32.412Z"
             }
           ]
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    internal class Nhacnho
+    public class Nhacnho
     {
         public int IdNhacNho { get; set; }         
         public int IdTaiKhoan { get; set; }         

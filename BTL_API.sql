@@ -174,12 +174,10 @@ VALUES
 (2, 1, N'Cảnh báo vượt hạn mức ăn uống', 2000000, N'Hàng tuần', '2025-12-31', N'Theo dõi chi ăn uống', 1),
 (2, 2, N'Thanh toán hóa đơn internet', 250000, N'Hàng tháng', '2026-01-30', N'Hóa đơn FPT', 1),
 (3, 3, N'Gửi tiết kiệm định kỳ', 1000000, N'Hàng tháng', '2026-12-31', N'Tạo thói quen tiết kiệm', 1);
-
-CREATE PROCEDURE GetAllNganSach
+--Hiện thị danh sách bảng Ngân sách
+ALTER PROCEDURE GetAllNganSach
 AS
 BEGIN
-    SET NOCOUNT ON;
-
     SELECT 
         IdNganSach,
         IdTaiKhoan,
@@ -191,5 +189,248 @@ BEGIN
     FROM NganSach
     ORDER BY NgayTao DESC;
 END
+GO
+
 
 EXEC GetAllNganSach;
+
+--Hiện thị danh sách bảng Ngân sách bằng id
+ALTER PROCEDURE Getngansachid
+    @id INT
+AS
+BEGIN
+    SELECT 
+        IdNganSach,
+        IdTaiKhoan,
+        TenNganSach,
+        SoTienGioiHan,
+        MoTa,
+        NgayTao,
+        TrangThai
+    FROM NganSach
+    WHERE IdNganSach = @id;
+END
+GO
+
+
+EXEC Getngansachid @ID = 1;
+--Thêm ngân sách
+ALTER PROCEDURE ThemNgansach
+    @IdTaiKhoan INT,
+    @TenNganSach NVARCHAR(100),
+    @SoTienGioiHan DECIMAL(18,2),
+    @MoTa NVARCHAR(255),
+    @TrangThai BIT
+AS
+BEGIN
+    INSERT INTO NganSach (IdTaiKhoan, TenNganSach, SoTienGioiHan, MoTa, TrangThai)
+    VALUES (@IdTaiKhoan, @TenNganSach, @SoTienGioiHan, @MoTa, @TrangThai);
+END
+GO
+
+
+EXEC ThemNgansach 
+    @IdTaiKhoan = 2,
+    @TenNganSach = N'Ngân sách du lịch tháng 12',
+    @SoTienGioiHan = 3000000,
+    @MoTa = N'Du lịch cuối năm',
+    @TrangThai = 1;
+-- Sửa ngân sách
+ALTER PROCEDURE SuaNgansach
+    @IdNganSach INT,
+    @TenNganSach NVARCHAR(100),
+    @SoTienGioiHan DECIMAL(18,2),
+    @MoTa NVARCHAR(255),
+    @TrangThai BIT
+AS
+BEGIN
+    UPDATE NganSach
+    SET 
+        TenNganSach = @TenNganSach,
+        SoTienGioiHan = @SoTienGioiHan,
+        MoTa = @MoTa,
+        TrangThai = @TrangThai
+    WHERE IdNganSach = @IdNganSach;
+END
+GO
+
+
+	EXEC SuaNgansach
+    @IdNganSach = 1,
+    @TenNganSach = N'Ngân sách ăn uống tháng 11 (đã chỉnh)',
+    @SoTienGioiHan = 2500000,
+    @MoTa = N'Tăng hạn mức ăn uống',
+    @TrangThai = 1;
+-- Xóa ngân sách
+	ALTER PROCEDURE XoaNganSach
+    @IdNganSach INT
+AS
+BEGIN
+    UPDATE NganSach
+    SET TrangThai = 0
+    WHERE IdNganSach = @IdNganSach
+END
+
+	EXEC XoaNganSach @IdNganSach = 5;
+
+	--Bảng loại nhắc nhở 
+	ALTER PROCEDURE GetAllLoaiNhacNho
+	AS
+	BEGIN
+	SELECT IdLoaiNhacNho,TenLoaiNhacNho,MoTa,TrangThai,NgayTao FROM LoaiNhacNho 
+    ORDER BY NgayTao DESC;
+	END
+
+	EXEC GetAllLoaiNhacNho
+
+	CREATE PROCEDURE GetLoaiNhacNhoById 
+	@IdLoaiNhacNho INT
+	AS 
+	BEGIN 
+	SELECT  IdLoaiNhacNho,TenLoaiNhacNho,MoTa,TrangThai,NgayTao FROM LoaiNhacNho 
+	WHERE IdLoaiNhacNho = @IdLoaiNhacNho
+	END 
+	GO
+
+	EXEC GetLoaiNhacNhoById  @IdLoaiNhacNho =4;
+
+	CREATE PROCEDURE Themloainhacnho
+	@TenLoaiNhacNho NVARCHAR(100),
+    @MoTa NVARCHAR(255),
+    @TrangThai BIT
+	AS
+	BEGIN 
+	INSERT INTO LoaiNhacNho(TenLoaiNhacNho,MoTa,TrangThai)
+	VALUES (@TenLoaiNhacNho,@MoTa,@TrangThai);
+	END 
+	GO
+
+	EXEC Themloainhacnho
+    @TenLoaiNhacNho = N'Nhắc vay nợ',
+    @MoTa = N'Nhắc các khoản vay và trả nợ',
+    @TrangThai = 1;
+
+	CREATE PROCEDURE Sualoainhacnho
+	@IdLoaiNhacNho INT,
+	@TenLoaiNhacNho NVARCHAR(100),
+    @MoTa NVARCHAR(255),
+    @TrangThai BIT
+	AS
+	BEGIN
+	UPDATE LoaiNhacNho
+	SET TenLoaiNhacNho = @TenLoaiNhacNho,
+        MoTa = @MoTa,
+        TrangThai = @TrangThai
+	WHERE IdLoaiNhacNho = @IdLoaiNhacNho;
+	END 
+	GO
+
+	EXEC Sualoainhacnho 
+	@IdLoaiNhacNho = 1,
+    @TenLoaiNhacNho = N'Nhắc chi tiêu ',
+    @MoTa = N'Nhắc kiểm soát chi tiêu',
+    @TrangThai = 1;
+
+	CREATE PROCEDURE Xoaloainhacnho
+		@IdLoaiNhacNho INT
+	AS
+	BEGIN
+	DELETE FROM LoaiNhacNho 
+	WHERE IdLoaiNhacNho = @IdLoaiNhacNho;
+	END 
+	GO 
+
+	EXEC Xoaloainhacnho @IdLoaiNhacNho=4
+
+	--Bảng nhắc nhở 
+	CREATE PROCEDURE Gettnhacnho
+	AS 
+	BEGIN 
+	SELECT IdNhacNho,IdTaiKhoan,IdLoaiNhacNho,NoiDung,SoTienNhacNho,ChuKyNhacNho,NgayKetThuc,MoTa,TrangThai
+	FROM NhacNho
+	END
+	GO 
+
+	EXEC Gettnhacnho
+
+	CREATE PROCEDURE Getnhacnhobyid
+	@IdNhacNho INT 
+	AS
+	BEGIN 
+	SELECT IdNhacNho,IdTaiKhoan,IdLoaiNhacNho,NoiDung,SoTienNhacNho,ChuKyNhacNho,NgayKetThuc,MoTa,TrangThai
+	FROM NhacNho
+	WHERE IdNhacNho = @IdNhacNho 
+	END 
+	GO 
+
+	EXEC Getnhacnhobyid @IdNhacNho = 1
+
+	CREATE PROCEDURE Themnhacnho
+		@IdTaiKhoan INT,
+		@IdLoaiNhacNho INT,
+		@NoiDung NVARCHAR(255),
+		@SoTienNhacNho DECIMAL(18,2),
+		@ChuKyNhacNho NVARCHAR(50),
+		@NgayKetThuc DATE,
+		@MoTa NVARCHAR(255),
+		@TrangThai BIT
+	AS
+	BEGIN
+	INSERT INTO NhacNho(IdTaiKhoan,IdLoaiNhacNho,NoiDung,SoTienNhacNho,ChuKyNhacNho,NgayKetThuc,MoTa,TrangThai)
+	VALUES (@IdTaiKhoan,@IdLoaiNhacNho,@NoiDung,@SoTienNhacNho,@ChuKyNhacNho,@NgayKetThuc,@MoTa,@TrangThai);
+	END 
+	GO
+
+	EXEC ThemNhacNho
+    @IdTaiKhoan = 2,
+    @IdLoaiNhacNho = 1,
+    @NoiDung = N'Nhắc kiểm soát chi tiêu ăn uống',
+    @SoTienNhacNho = 2000000,
+    @ChuKyNhacNho = N'Hàng tuần',
+    @NgayKetThuc = '2025-12-31',
+    @MoTa = N'Áp dụng cho tháng 12',
+    @TrangThai = 1;
+
+	CREATE PROCEDURE Suanhacnho
+		@IdNhacNho INT,
+		@IdLoaiNhacNho INT,
+		@NoiDung NVARCHAR(255),
+		@SoTienNhacNho DECIMAL(18,2),
+		@ChuKyNhacNho NVARCHAR(50),
+		@NgayKetThuc DATE,
+		@MoTa NVARCHAR(255),
+		@TrangThai BIT
+	AS
+	BEGIN
+		UPDATE NhacNho
+		SET IdLoaiNhacNho = @IdLoaiNhacNho,
+        NoiDung = @NoiDung,
+        SoTienNhacNho = @SoTienNhacNho,
+        ChuKyNhacNho = @ChuKyNhacNho,
+        NgayKetThuc = @NgayKetThuc,
+        MoTa = @MoTa,
+        TrangThai = @TrangThai
+		WHERE IdNhacNho=@IdNhacNho;
+	END 
+	GO 
+
+	EXEC SuaNhacNho
+    @IdNhacNho = 1,
+    @IdLoaiNhacNho = 1,
+    @NoiDung = N'Nhắc chi tiêu ăn uống ',
+    @SoTienNhacNho = 3500000,
+    @ChuKyNhacNho = N'Hàng tuần',
+    @NgayKetThuc = '2025-12-31',
+    @MoTa = N'Tăng hạn mức',
+    @TrangThai = 1;
+
+	CREATE PROCEDURE Xoanhacnho	
+	@IdNhacNho INT
+	AS
+	BEGIN
+	DELETE FROM NhacNho
+	WHERE	IdNhacNho = @IdNhacNho
+	END
+	GO
+
+	EXEC XoaNhacNho @IdNhacNho = 4;
