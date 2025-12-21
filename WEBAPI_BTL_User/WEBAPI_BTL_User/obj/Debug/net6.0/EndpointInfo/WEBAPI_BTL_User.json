@@ -40,6 +40,37 @@
         }
       }
     },
+    "/api/Loainhacnho_control/Themloainn": {
+      "post": {
+        "tags": [
+          "Loainhacnho_control"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Loainhacnho"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Loainhacnho"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Loainhacnho"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Ngansach_control/get-all": {
       "get": {
         "tags": [
@@ -201,6 +232,31 @@
   },
   "components": {
     "schemas": {
+      "Loainhacnho": {
+        "type": "object",
+        "properties": {
+          "idLoaiNhacNho": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenLoaiNhacNho": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "type": "boolean"
+          },
+          "ngayTao": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
       "Ngansach": {
         "type": "object",
         "properties": {

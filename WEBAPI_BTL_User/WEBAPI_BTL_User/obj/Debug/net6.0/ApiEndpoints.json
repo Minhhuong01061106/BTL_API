@@ -26,6 +26,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WEBAPI_BTL_User.Controllers.Loainhacnho_control",
+    "Method": "Themloainhacnho",
+    "RelativePath": "api/Loainhacnho_control/Themloainn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lnn",
+        "Type": "Models.Loainhacnho",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WEBAPI_BTL_User.Controllers.Ngansach_control",
     "Method": "GetAll",
     "RelativePath": "api/Ngansach_control/get-all",

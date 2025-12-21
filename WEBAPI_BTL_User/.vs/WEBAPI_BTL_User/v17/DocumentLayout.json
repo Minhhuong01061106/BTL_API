@@ -11,28 +11,28 @@
       "RelativeMoniker": "D:0:0:{9E282A0B-0ACF-4214-8E83-DC3F773ABDB8}|WEBAPI_BTL_User\\WEBAPI_BTL_User.csproj|solutionrelative:webapi_btl_user\\controllers\\ngansach_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\models\\loainhacnho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|solutionrelative:models\\loainhacnho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBE8A051-E51F-4E18-9336-C5021A103D6C}|BLL\\BLL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\bll\\loainhacnho_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBE8A051-E51F-4E18-9336-C5021A103D6C}|BLL\\BLL.csproj|solutionrelative:bll\\loainhacnho_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8763D769-0186-460A-8921-857CB76F6919}|DAL\\DAL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\dal\\loainhacnho_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8763D769-0186-460A-8921-857CB76F6919}|DAL\\DAL.csproj|solutionrelative:dal\\loainhacnho_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBE8A051-E51F-4E18-9336-C5021A103D6C}|BLL\\BLL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\bll\\loainhacnho_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBE8A051-E51F-4E18-9336-C5021A103D6C}|BLL\\BLL.csproj|solutionrelative:bll\\loainhacnho_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8763D769-0186-460A-8921-857CB76F6919}|DAL\\DAL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\dal\\ngansach_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8763D769-0186-460A-8921-857CB76F6919}|DAL\\DAL.csproj|solutionrelative:dal\\ngansach_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\models\\nhacnho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|solutionrelative:models\\nhacnho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\models\\loainhacnho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|solutionrelative:models\\loainhacnho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\models\\ngansach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|solutionrelative:models\\ngansach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\models\\nhacnho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29506DBA-23E5-4E00-B629-35CEC4E38319}|Models\\Models.csproj|solutionrelative:models\\nhacnho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBE8A051-E51F-4E18-9336-C5021A103D6C}|BLL\\BLL.csproj|c:\\users\\acer\\desktop\\btl_api\\webapi_btl_user\\bll\\ngansach_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -76,20 +76,20 @@
               "RelativeDocumentMoniker": "WEBAPI_BTL_User\\Controllers\\Loainhacnho_control.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\Controllers\\Loainhacnho_control.cs",
               "RelativeToolTip": "WEBAPI_BTL_User\\Controllers\\Loainhacnho_control.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T02:39:23.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Loainhacnho_BLL.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\BLL\\Loainhacnho_BLL.cs",
               "RelativeDocumentMoniker": "BLL\\Loainhacnho_BLL.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\BLL\\Loainhacnho_BLL.cs",
               "RelativeToolTip": "BLL\\Loainhacnho_BLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T02:28:36.679Z",
               "EditorCaption": ""
@@ -102,7 +102,7 @@
               "RelativeDocumentMoniker": "DAL\\Loainhacnho_DAL.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\DAL\\Loainhacnho_DAL.cs",
               "RelativeToolTip": "DAL\\Loainhacnho_DAL.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAA1wEwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T02:14:47.63Z",
               "EditorCaption": ""
@@ -115,14 +115,14 @@
               "RelativeDocumentMoniker": "WEBAPI_BTL_User\\Controllers\\Ngansach_control.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\WEBAPI_BTL_User\\Controllers\\Ngansach_control.cs",
               "RelativeToolTip": "WEBAPI_BTL_User\\Controllers\\Ngansach_control.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwEcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T09:15:54.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Nhacnho.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\Models\\Nhacnho.cs",
               "RelativeDocumentMoniker": "Models\\Nhacnho.cs",
@@ -130,12 +130,11 @@
               "RelativeToolTip": "Models\\Nhacnho.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T04:17:20.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-13T04:17:20.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Ngansach.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\Models\\Ngansach.cs",
               "RelativeDocumentMoniker": "Models\\Ngansach.cs",
@@ -156,18 +155,17 @@
               "RelativeToolTip": "BLL\\Ngansach_BLL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T04:02:52.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-13T04:02:52.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Ngansach_DAL.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\DAL\\Ngansach_DAL.cs",
               "RelativeDocumentMoniker": "DAL\\Ngansach_DAL.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\DAL\\Ngansach_DAL.cs",
               "RelativeToolTip": "DAL\\Ngansach_DAL.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T04:02:20.025Z",
               "EditorCaption": ""
@@ -186,13 +184,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Loainhacnho.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\Models\\Loainhacnho.cs",
               "RelativeDocumentMoniker": "Models\\Loainhacnho.cs",
               "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_User\\Models\\Loainhacnho.cs",
               "RelativeToolTip": "Models\\Loainhacnho.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T04:17:34.692Z",
               "EditorCaption": ""

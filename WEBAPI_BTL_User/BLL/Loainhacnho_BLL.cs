@@ -25,5 +25,9 @@ namespace BLL
         {
             return _dal.GetLoaiNhacNhoById(idLoaiNhacNho);
         }
+        public bool Themloainhacnho(Loainhacnho lnn)
+        {
+            return _dal.Themloainhacnho(lnn);
+        }
     }
 }
