@@ -243,6 +243,40 @@
         }
       }
     },
+    "/api/Nhacnho_Control/GetAll": {
+      "get": {
+        "tags": [
+          "Nhacnho_Control"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhacnho_Control/GetidNhacnho": {
+      "get": {
+        "tags": [
+          "Nhacnho_Control"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [

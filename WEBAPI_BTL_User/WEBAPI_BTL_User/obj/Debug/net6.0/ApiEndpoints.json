@@ -148,6 +148,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WEBAPI_BTL_User.Controllers.Nhacnho_Control",
+    "Method": "Getall",
+    "RelativePath": "api/Nhacnho_Control/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI_BTL_User.Controllers.Nhacnho_Control",
+    "Method": "Getbyid",
+    "RelativePath": "api/Nhacnho_Control/GetidNhacnho",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WEBAPI_BTL_User.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
