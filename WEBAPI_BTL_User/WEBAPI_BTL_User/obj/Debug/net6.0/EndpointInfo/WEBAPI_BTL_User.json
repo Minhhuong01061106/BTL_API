@@ -102,6 +102,28 @@
         }
       }
     },
+    "/api/Loainhacnho_control/Xoaloainn": {
+      "delete": {
+        "tags": [
+          "Loainhacnho_control"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Ngansach_control/get-all": {
       "get": {
         "tags": [

@@ -111,5 +111,17 @@ namespace DAL
                 return rows > 0;
             }
         }
+        public bool Xoaloainhacnho(int idloainn)
+        {
+            using (SqlConnection conn = new SqlConnection(_connectionString)) 
+            { 
+                SqlCommand cmd  = new SqlCommand("Xoaloainhacnho", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdLoaiNhacNho", idloainn);
+                conn.Open();
+                int rows = cmd.ExecuteNonQuery();
+                return rows > 0;
+            }
+        }
     }
 }

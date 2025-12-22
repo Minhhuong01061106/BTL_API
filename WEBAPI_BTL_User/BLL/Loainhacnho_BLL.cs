@@ -33,5 +33,9 @@ namespace BLL
         {
             return _dal.Sualoainhacnho(lnn) ;
         }
+        public bool Xoaloainhacnho(int idloainn)
+        {
+            return _dal.Xoaloainhacnho(idloainn);
+        }
     }
 }

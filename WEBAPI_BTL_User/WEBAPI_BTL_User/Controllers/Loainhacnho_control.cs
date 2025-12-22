@@ -139,5 +139,41 @@ namespace WEBAPI_BTL_User.Controllers
                 }); 
             }
         }
+        [Route("Xoaloainn")]
+        [HttpDelete]
+        public IActionResult Xoaloainn( int id) 
+        {
+            try
+            {
+                if (id <= 0)
+                {
+                    return BadRequest(new
+                    {
+                        message = "Id không hợp lệ"
+
+                    });
+                }
+                bool result = _bll.Xoaloainhacnho(id);
+                if (!result)
+                {
+                    return BadRequest(new
+                    {
+                        message = "Không tìm thấy id ngân sách để xóa"
+                    });
+                }
+                return Ok(new
+                {
+                    message = "Xóa loại nhắc nhở thành công"
+                });
+            }
+            catch (Exception e) 
+            {
+                return StatusCode(500, new
+                {
+                    message = e.Message,
+                    stackTrace = e.StackTrace
+                });
+            }
+        }
     }
 }

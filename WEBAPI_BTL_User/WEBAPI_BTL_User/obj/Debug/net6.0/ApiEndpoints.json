@@ -58,6 +58,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WEBAPI_BTL_User.Controllers.Loainhacnho_control",
+    "Method": "Xoaloainn",
+    "RelativePath": "api/Loainhacnho_control/Xoaloainn",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WEBAPI_BTL_User.Controllers.Ngansach_control",
     "Method": "GetAll",
     "RelativePath": "api/Ngansach_control/get-all",
