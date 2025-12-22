@@ -96,6 +96,48 @@ namespace WEBAPI_BTL_User.Controllers
                 });
             }
         }
+        [Route("Sualoainhacnho")]
+        [HttpPut]
+        public IActionResult Sualoainhacnho([FromBody] Loainhacnho lnn)
+        {
+            try
+            {
+                if (lnn == null)
+                {
+                    return NotFound(new
+                    {
+                        message = "Dữ liệu không hợp lệ"
+                    });
+                }
+                if (lnn.IdLoaiNhacNho <= 0) 
+                {
+                    return BadRequest(new
+                    {
+                        message = "Id loại nhắc nhở không hợp lệ"
+                    });
+                }
+                bool result = _bll.Sualoainhacnho(lnn);
+                if (!result) 
+                {
+                    return BadRequest(new
+                    {
+                        message = "KHông tìm thấy dữ liệu loại nhắc nhở "
+                    });
+                }
+                return Ok(new
+                {
+                    message = "Sửa loại nhắc nhở thành công"
+                });
 
+            }
+            catch (Exception ex) 
+            { 
+                return StatusCode(500, new 
+                { 
+                    message = ex.Message,
+                    stackTrace = ex.StackTrace
+                }); 
+            }
+        }
     }
 }

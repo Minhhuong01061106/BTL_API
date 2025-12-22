@@ -96,6 +96,20 @@ namespace DAL
                 return rows > 0;
             }
         }
-
+        public bool Sualoainhacnho(Loainhacnho lnn) 
+        {
+            using (SqlConnection conn = new SqlConnection(_connectionString)) 
+            {
+                SqlCommand cmd = new SqlCommand("Sualoainhacnho", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdLoaiNhacNho", lnn.IdLoaiNhacNho);
+                cmd.Parameters.AddWithValue("@TenLoaiNhacNho", lnn.TenLoaiNhacNho);
+                cmd.Parameters.AddWithValue("@MoTa",lnn.MoTa);
+                cmd.Parameters.AddWithValue("@TrangThai", lnn.TrangThai);
+                conn.Open() ;
+                int rows = cmd.ExecuteNonQuery();
+                return rows > 0;
+            }
+        }
     }
 }

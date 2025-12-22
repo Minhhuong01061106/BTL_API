@@ -29,5 +29,9 @@ namespace BLL
         {
             return _dal.Themloainhacnho(lnn);
         }
+        public bool Sualoainhacnho(Loainhacnho lnn)
+        {
+            return _dal.Sualoainhacnho(lnn) ;
+        }
     }
 }

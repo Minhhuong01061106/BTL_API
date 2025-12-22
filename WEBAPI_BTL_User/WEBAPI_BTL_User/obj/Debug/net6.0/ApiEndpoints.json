@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "WEBAPI_BTL_User.Controllers.Loainhacnho_control",
+    "Method": "Sualoainhacnho",
+    "RelativePath": "api/Loainhacnho_control/Sualoainhacnho",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lnn",
+        "Type": "Models.Loainhacnho",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI_BTL_User.Controllers.Loainhacnho_control",
     "Method": "Themloainhacnho",
     "RelativePath": "api/Loainhacnho_control/Themloainn",
     "HttpMethod": "POST",
