@@ -277,6 +277,90 @@
         }
       }
     },
+    "/api/Nhacnho_Control/Themnhacnho": {
+      "post": {
+        "tags": [
+          "Nhacnho_Control"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Nhacnho"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Nhacnho"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Nhacnho"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhacnho_Control/Suanhacnho": {
+      "put": {
+        "tags": [
+          "Nhacnho_Control"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Nhacnho"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Nhacnho"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Nhacnho"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Nhacnho_Control/Xoanhacnho": {
+      "delete": {
+        "tags": [
+          "Nhacnho_Control"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -370,6 +454,48 @@
           "ngayTao": {
             "type": "string",
             "format": "date-time"
+          },
+          "trangThai": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Nhacnho": {
+        "type": "object",
+        "properties": {
+          "idNhacNho": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idTaiKhoan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idLoaiNhacNho": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "soTienNhacNho": {
+            "type": "number",
+            "format": "double"
+          },
+          "chuKyNhacNho": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayKetThuc": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
           },
           "trangThai": {
             "type": "boolean"

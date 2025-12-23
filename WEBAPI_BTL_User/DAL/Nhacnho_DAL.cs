@@ -92,6 +92,60 @@ namespace DAL
 
             return nn;
         }
-        
+
+        public bool Themnhacnho(Nhacnho nn)
+        {
+            using (SqlConnection conn = new SqlConnection(_connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("Themnhacnho", conn);
+                cmd. CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdTaiKhoan", nn.IdTaiKhoan);
+                cmd.Parameters.AddWithValue("@IdLoaiNhacNho", nn.IdLoaiNhacNho);
+                cmd.Parameters.AddWithValue("@NoiDung", nn.NoiDung);
+                cmd.Parameters.AddWithValue("@SoTienNhacNho", nn.SoTienNhacNho);
+                cmd.Parameters.AddWithValue("@ChuKyNhacNho", nn.ChuKyNhacNho);
+                cmd.Parameters.AddWithValue("@NgayKetThuc", nn.NgayKetThuc);
+                cmd.Parameters.AddWithValue("@MoTa", nn.MoTa);
+                cmd.Parameters.AddWithValue("@TrangThai", nn.TrangThai);
+                conn.Open();
+                int rows = cmd.ExecuteNonQuery();
+
+                return rows > 0;
+            }
+        }
+        public bool Suanhacnho(Nhacnho nn)
+        {
+            using (SqlConnection conn = new SqlConnection(_connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("Suanhacnho",conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdNhacNho", nn.IdNhacNho);
+                cmd.Parameters.AddWithValue("@IdTaiKhoan", nn.IdTaiKhoan);
+                cmd.Parameters.AddWithValue("@IdLoaiNhacNho", nn.IdLoaiNhacNho);
+                cmd.Parameters.AddWithValue("@NoiDung", nn.NoiDung);
+                cmd.Parameters.AddWithValue("@SoTienNhacNho", nn.SoTienNhacNho);
+                cmd.Parameters.AddWithValue("@ChuKyNhacNho", nn.ChuKyNhacNho);
+                cmd.Parameters.AddWithValue("@NgayKetThuc", nn.NgayKetThuc);
+                cmd.Parameters.AddWithValue("@MoTa", nn.MoTa);
+                cmd.Parameters.AddWithValue("@TrangThai", nn.TrangThai);
+                conn.Open();
+                int rows = cmd.ExecuteNonQuery();
+
+                return rows > 0;
+            }
+        }
+        public bool Xoanhacnho(int idnhacnho)
+        {
+            using (SqlConnection conn = new SqlConnection(_connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("Xoanhacnho", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdNhacNho",idnhacnho);
+                conn.Open();
+                int rows = cmd.ExecuteNonQuery();
+
+                return rows > 0;
+            }
+        }
     }
 }

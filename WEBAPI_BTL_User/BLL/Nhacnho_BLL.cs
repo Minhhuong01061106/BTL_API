@@ -23,5 +23,17 @@ namespace BLL
         {
             return _dal.Getbyidnhacnho(idnhacnho);
         }
+        public bool Themnhacnho(Nhacnho nn)
+        {
+            return _dal.Themnhacnho(nn);
+        }
+        public bool Suanhacnho(Nhacnho nn)
+        {
+            return _dal.Suanhacnho(nn) ;
+        }
+        public bool Xoanhacnho(int idnhacnho)
+        {
+            return _dal.Xoanhacnho(idnhacnho);
+        }
     }
 }

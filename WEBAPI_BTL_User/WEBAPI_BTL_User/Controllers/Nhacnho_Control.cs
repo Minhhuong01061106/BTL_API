@@ -64,5 +64,121 @@ namespace WEBAPI_BTL_User.Controllers
                 });
             }
         }
+        [Route("Themnhacnho")]
+        [HttpPost]
+        public IActionResult Themnhacnho([FromBody] Nhacnho nn)
+        {
+            try
+            {
+                if (nn == null)
+                {
+                    return NotFound(new
+                    {
+                        message = "KHông có dữ liệu"
+                    });
+                }
+                bool result = _bll.Themnhacnho(nn);
+                if (!result)
+                {
+                    return BadRequest(new
+                    {
+                        message = "Thêm nhắc nhở thất bại"
+                    });
+                }
+                return Ok(new
+                {
+                    message = "Thêm nhắc nhở thành công"
+                });
+
+
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, new 
+                { 
+                    message = e.Message,
+                    stackTrace = e.StackTrace
+                });
+
+            }
+        }
+        [Route("Suanhacnho")]
+        [HttpPut]
+        public IActionResult Suanhacnho([FromBody] Nhacnho nn)
+        {
+            try
+            {
+                if (nn == null)
+                {
+                    return NotFound(new
+                    {
+                        message = "Dữ liệu không hợp lệ"
+                    });
+                }
+                if (nn.IdNhacNho <= 0)
+                {
+                    return BadRequest(new
+                    {
+                        message = "Id nhắc nhở không hợp lệ"
+                    });
+                }
+                bool result = _bll.Suanhacnho(nn);
+                if (!result)
+                {
+                    return BadRequest(new
+                    {
+                        message = "Sửa nhắc nhở không hợp lệ"
+                    });
+                }
+                return Ok(new
+                {
+                    message = " Sửa nhắc nhở thành công"
+                });
+
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, new
+                {
+                    message = e.Message,
+                    stackTrace = e.StackTrace
+                });
+            }
+        }
+        [Route("Xoanhacnho")]
+        [HttpDelete]
+        public IActionResult Xoanhacnho(int id) 
+        {
+            try
+            {
+                if (id <= 0)
+                {
+                    return BadRequest(new
+                    {
+                        message = "Id nhắc nhở không hợp lệ"
+                    });
+                }
+                bool result = _bll.Xoanhacnho(id);
+                if (!result)
+                {
+                    return BadRequest(new
+                    {
+                        message = "Không tìm thấy nhắc nhở để xóa"
+                    });
+                }
+                return Ok(new
+                {
+                    message = "Xóa nhắc nhở thành công"
+                });
+            }
+            catch(Exception e) 
+            {
+                return StatusCode(500, new
+                {
+                    message = e.Message,
+                    stackTrace = e.StackTrace
+                });
+            }
+        }
     }
 }
