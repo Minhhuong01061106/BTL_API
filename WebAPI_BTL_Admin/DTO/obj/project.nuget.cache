@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k/lgroG/rk+FrTsihkrHzYOGxDcVYNqL+0WBBp8IHJkttBitFeiu+tboSmwCa3k/fvG9GJxcfAyVjXBmDieshA==",
+  "dgSpecHash": "d+vbQfWS2kHVq9ZWU+8zogSbOxNgB6yKHpLGc4tAFPRY/wgceeLDVJ3HkcmzXDP1C+5BoiEk6jagjfQ4qQt52A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\DTO.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\OneDrive\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

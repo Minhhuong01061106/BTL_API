@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\DTO.csproj",
-      "projectName": "DTO",
-      "projectPath": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\DTO.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\Models.csproj",
+      "projectName": "Models",
+      "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\Models.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

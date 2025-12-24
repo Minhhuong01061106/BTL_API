@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\DTO.csproj": {}
+    "C:\\Users\\Dell\\OneDrive\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\DTO.csproj": {
+    "C:\\Users\\Dell\\OneDrive\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\OneDrive\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\WebAPI_BTL_Admin\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\OneDrive\\Desktop\\BTL_API\\WebAPI_BTL_Admin\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,15 @@
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\obj\Debug\net6.0\Code_Demo_TT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\obj\Debug\net6.0\Code_Demo_TT.AssemblyInfoInputs.cache
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\obj\Debug\net6.0\Code_Demo_TT.AssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\obj\Debug\net6.0\Code_Demo_TT.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\obj\Debug\net6.0\Code_Demo_TT.sourcelink.json
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\bin\Debug\net6.0\Code_Demo_TT.exe
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\bin\Debug\net6.0\Code_Demo_TT.deps.json
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\bin\Debug\net6.0\Code_Demo_TT.runtimeconfig.json
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\bin\Debug\net6.0\Code_Demo_TT.dll
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\bin\Debug\net6.0\Code_Demo_TT.pdb
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\obj\Debug\net6.0\Code_Demo_TT.dll
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\obj\Debug\net6.0\refint\Code_Demo_TT.dll
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\obj\Debug\net6.0\Code_Demo_TT.pdb
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\obj\Debug\net6.0\Code_Demo_TT.genruntimeconfig.cache
+C:\Users\Dell\OneDrive\Desktop\BTL_API\Code_Demo_TT\Code_Demo_TT\obj\Debug\net6.0\ref\Code_Demo_TT.dll
