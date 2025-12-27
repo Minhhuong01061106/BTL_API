@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "d+TtMr1dyXgneNooLwixk7lJVyNqPOp/N1v7TrVJAl4=",
+  "Source": "WEBAPI_BTL_Gateway",
+  "BasePath": "_content/WEBAPI_BTL_Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -50,7 +50,7 @@ namespace WEBAPI_BTL_User.Controllers
                 {
                     return NotFound(new
                     {
-                        message = "Không tìm thấy nhắc nhở"
+                        message = "Không tìm ID thấy nhắc nhở"
                     });
                 }
                 return Ok(data);

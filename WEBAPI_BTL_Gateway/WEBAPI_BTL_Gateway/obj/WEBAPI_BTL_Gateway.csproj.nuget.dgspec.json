@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\source\\repos\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway.csproj": {}
+    "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\source\\repos\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway.csproj": {
+    "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway.csproj",
+        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway.csproj",
         "projectName": "WEBAPI_BTL_Gateway",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway\\obj\\",
+        "projectPath": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER\\Desktop\\BTL_API\\WEBAPI_BTL_Gateway\\WEBAPI_BTL_Gateway\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,12 +43,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Ocelot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -69,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
